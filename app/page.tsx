@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-[#272725]">
-<main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center gap-14 py-32 px-16 bg-white dark:bg-[#272725] sm:items-start">
+    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-[#0a0a0a]">
+<main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-center gap-14 py-32 px-16 bg-white dark:bg-[#0a0a0a] sm:items-start">
         <Image
           src="/prettiflow.svg"
           alt="PrettiFlow logo"
