@@ -1,12 +1,15 @@
 import type { NextConfig } from "next";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
+  // CRITICAL: This allows OpenNext to bundle your dependencies for the Cloud
+  output: 'standalone',
+
   typescript: {
     ignoreBuildErrors: true,
   },
   eslint: {
     ignoreDuringBuilds: true,
   },
-} as NextConfig;
+};
 
 export default nextConfig;
